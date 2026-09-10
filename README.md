@@ -14,4 +14,4 @@ Assets and case studies use root-relative paths, such as /static/ and /work/, fo
 - static/js/portfolio.js: section reveals and footer year
 - static/img/: supplied project branding
 
-Cellule still contains marked placeholder text. Beep and Sentry-To-GitHub repositories are described as being prepared for release.
+Cellule still contains marked placeholder text. Beep is being prepared for release. Sentry-To-GitHub is public at https://github.com/nmsturcke/Sentry-To-GitHub.
