@@ -2,9 +2,9 @@
 
 Independent preview of the portfolio mockup. Production remains at https://nickyux.com/.
 
-This repository publishes its main branch through GitHub Pages. It has no custom-domain configuration. The site is static HTML, CSS, and JavaScript, with no build step.
+This repository publishes its main branch through GitHub Pages at https://preview.nickyux.com/. The site is static HTML, CSS, and JavaScript, with no build step. Keep the CNAME file to preserve the preview domain.
 
-Preview paths use /nickyux-preview/ so assets and case studies resolve under the repository's Pages URL. Keep that prefix when editing internal URLs.
+Assets and case studies use root-relative paths, such as /static/ and /work/, for the custom domain. Do not add a repository-name prefix.
 
 ## Content
 
