@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Federal Escort";
+    src: url("/static/fonts/FederalEscort.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Druk Wide Bold";
+    src: url("/static/fonts/DrukWideBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Achafont";
+    src: url("/static/fonts/Achafont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Austria";
+    src: url("/static/fonts/Austria.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BodoniFLF";
+    src: url("/static/fonts/BodoniFLF.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ERTHQAKE";
+    src: url("/static/fonts/ERTHQAKE.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FadeToGrey";
+    src: url("/static/fonts/FadeToGrey.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Funkrocker";
+    src: url("/static/fonts/Funkrocker.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Germanica";
+    src: url("/static/fonts/Germanica.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GlassHouses";
+    src: url("/static/fonts/GlassHouses.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "KOMTIT";
+    src: url("/static/fonts/KOMTIT.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "newcomictitle";
+    src: url("/static/fonts/newcomictitle.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Subtitle";
+    src: url("/static/fonts/Subtitle.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TitleWaveRegular";
+    src: url("/static/fonts/TitleWaveRegular.ttf") format("truetype");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.text-title {
+    font-size: 350px;
+    text-align: center;
+    line-height: 0.6;
+    color: rgba(0,0,0,0)!important;
+    -webkit-text-stroke: 1px #AAAAAA;
+}
+
+
+.text-supertitle {
+    font-size: 100px;
+    line-height: 0.8;
+    color: rgba(0,0,0,0)!important;
+    -webkit-text-stroke: 1px #AAAAAA;
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .text-title {
+        font-size: 75px;
+    }
+    .text-supertitle {
+        font-size: 30px;
+    }
+}
+
+/* Mobile */
+@media (min-width: 481px) and (max-width: 768px) {
+    .text-title {
+        font-size: 100px;
+    }
+
+    .text-supertitle {
+        font-size: 40px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .text-title {
+        font-size: 150px;
+    }
+    .text-supertitle {
+        font-size: 50px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .text-title {
+        font-size: 200px;
+    }
+    .text-supertitle {
+        font-size: 75px;
+    }
+}
+
+/* Big Laptop */
+@media (min-width: 1441px) and (max-width: 1770px) {
+    .text-title {
+        font-size: 275px;
+    }
+    .text-supertitle {
+        font-size: 90px;
+    }
+}
+
+svg.background-item {
+    opacity: 1;
+    fill: rgba(94, 233, 181, 0.1);
+    stroke: rgba(0, 0, 0, 0.2);
+}
+
+svg.background-item.x {
+    bottom: 50px;
+    transform: rotate(45deg);
+    width: 1200px;
+    height: 1200px;
+}
